@@ -76,6 +76,11 @@ Displays the results in a tabular format for quick reference.
 | 	1	| 	0	| 	0	 | 	1	| 	0	 | 	1	| 	1	| 	0	 |  1	|	 0	|
 | 	1	| 	1	| 	0	 | 	0	| 	1	 | 	1	| 	0	| 	0	 | 	0	| 	0	|
 
+# 📸 Screenshots
+
+![gtkwave_logic_gates](https://github.com/user-attachments/assets/e2b6252b-6f73-4752-998c-2bc259167690)
+
+
 # 🌟 Highlights
 
 Simple and modular Verilog design for beginners.
