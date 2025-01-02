@@ -90,3 +90,6 @@ Explore all basic logic gate behaviors!
 
 Feel free to fork, clone, and improve this repository! Contributions are welcome to enhance the learning experience for others. 🚀
 
+# ⭐ Don’t forget to star this repo if you found it helpful! ⭐
+
+
