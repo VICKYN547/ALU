@@ -101,6 +101,9 @@ Explore all basic logic gate behaviors!
 
 Feel free to fork, clone, and improve this repository! Contributions are welcome to enhance the learning experience for others. 🚀
 
+## 📜 License
+ This project is licensed under the MIT License. See the [MIT License](LICENSE) file for details.
+
 # ⭐ Don’t forget to star this repo if you found it helpful! ⭐
 
 
