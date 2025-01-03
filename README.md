@@ -1,48 +1,54 @@
 # Logic Gates Simulation using Icarus Verilog and GTKWave 🚀
 
-Welcome to the Logic Gates Simulation project! 🎉 This repository demonstrates how to simulate basic logic gates using Icarus Verilog for simulation and GTKWave for waveform analysis. Dive into the exciting world of digital design! 💻✨
+Welcome to the Logic Gates Simulation project! 🎉 This repository demonstrates how to simulate basic logic gates using **Icarus Verilog** for simulation and **GTKWave** for waveform analysis. Dive into the exciting world of digital design! 💻✨
 
-# 🗂 File Overview
+## 🗂 File Overview
 
 | 	File Name	 | 	Description	 |  
 | 	:-----:	 | 	:-----:	 | 	 
-| 	logic_gates.v	| 	Verilog module implementing basic logic gates: AND, OR, NOT, NAND, NOR, XOR, XNOR.	|  
-| 	logic_gates_tb.v	| 	Testbench for logic_gates.v to validate the functionality of all logic gates.	|  
-| 	logic_gates.vcd	| 	Value Change Dump file generated after simulation to view waveforms in GTKWave.	| 
-| 	logic_gates.vvp	| 	Compiled Verilog simulation file created by Icarus Verilog.	| 
+| 	**`logic_gates.v`**	| 	Verilog module implementing basic logic gates: AND, OR, NOT, NAND, NOR, XOR, XNOR.	|  
+| 	**`logic_gates_tb.v`**	| 	Testbench for **`logic_gates.v`** to validate the functionality of all logic gates.	|  
+| 	**`logic_gates.vcd`**	| 	Value Change Dump file generated after simulation to view waveforms in GTKWave.	| 
+| 	**`logic_gates.vvp`**	| 	Compiled Verilog simulation file created by Icarus Verilog.	| 
 
-# ⚙️ Simulation Setup
+## ⚙️ Simulation Setup
 
 Follow these steps to simulate and visualize the logic gates:
 
 **1. Requirements**
 
-**Icarus Verilog:** A powerful open-source Verilog simulator.
+- **Icarus Verilog:** A powerful open-source Verilog simulator.
 
-**GTKWave:** A waveform viewer for analyzing simulation results.
+- **GTKWave:** A waveform viewer for analyzing simulation results.
 
 **2. Compilation and Simulation**
 
 Run the following commands in your terminal:
 
-Step 1: Compile the testbench\
-  _iverilog -o logic_gates.vvp logic_gates_tb.v_
+Step 1: Compile the testbench
+```python
+  iverilog -o logic_gates.vvp logic_gates_tb.v
+```
 
-Step 2: Run the simulation\
-  _vvp logic_gates.vvp_
+Step 2: Run the simulation
+```python
+  vvp logic_gates.vvp
+```
 
-Step 3: Generate the waveform (logic_gates.vcd is created automatically)
+Step 3: Generate the waveform (**`logic_gates.vcd`** is created automatically)
 
 **3. View Waveforms**
 
-Open the generated logic_gates.vcd file in GTKWave:\
-  _gtkwave logic_gates.vcd_
+Open the generated logic_gates.vcd file in GTKWave:
+```python
+  gtkwave logic_gates.vcd
+```
 
 Explore the waveforms of each logic gate and validate their functionality visually! 📈
 
-# 📋 Logic Gates Implementation
+## 📋 Logic Gates Implementation
 
-The _logic_gates.v_ file defines basic logic gates:
+The **`logic_gates.v`** file defines basic logic gates:
 
 **AND Gate:** Outputs 1 if both inputs are 1.
 
@@ -58,13 +64,13 @@ The _logic_gates.v_ file defines basic logic gates:
 
 **XNOR Gate:** Outputs 1 if inputs are the same.
 
-# 📜 Testbench Overview
+## 📜 Testbench Overview
 
-The _logic_gates_tb.v_ file includes a testbench to verify the functionality of all gates. Here's what it does:
+The **`logic_gates_tb.v`** file includes a testbench to verify the functionality of all gates. Here's what it does:
 
 Initializes a set of test cases for inputs a and b.
 
-Dumps the results into a _.vcd_ file for waveform analysis.
+Dumps the results into a **`.vcd`** file for waveform analysis.
 
 Displays the results in a tabular format for quick reference.
 
@@ -76,12 +82,12 @@ Displays the results in a tabular format for quick reference.
 | 	1	| 	0	| 	0	 | 	1	| 	0	 | 	1	| 	1	| 	0	 |  1	|	 0	|
 | 	1	| 	1	| 	0	 | 	0	| 	1	 | 	1	| 	0	| 	0	 | 	0	| 	0	|
 
-# 📸 Screenshots
+## 📸 Screenshots
 
 ![gtkwave_logic_gates](https://github.com/user-attachments/assets/e2b6252b-6f73-4752-998c-2bc259167690)
 
 
-# 🌟 Highlights
+## 🌟 Highlights
 
 Simple and modular Verilog design for beginners.
 
