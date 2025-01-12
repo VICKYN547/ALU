@@ -6,10 +6,10 @@ Welcome to the Logic Gates Simulation project! 🎉 This repository demonstrates
 
 | 	File Name	 | 	Description	 |  
 | 	:-----:	 | 	:-----:	 | 	 
-| 	**`logic_gates.v`**	| 	Verilog module implementing basic logic gates: AND, OR, NOT, NAND, NOR, XOR, XNOR.	|  
-| 	**`logic_gates_tb.v`**	| 	Testbench for **`logic_gates.v`** to validate the functionality of all logic gates.	|  
-| 	**`logic_gates.vcd`**	| 	Value Change Dump file generated after simulation to view waveforms in GTKWave.	| 
-| 	**`logic_gates.vvp`**	| 	Compiled Verilog simulation file created by Icarus Verilog.	| 
+| 	**(logic_gates.v)[https://github.com/VarshithGovi/Logic_gates/blob/main/logic_gates.v]**	| 	Verilog module implementing basic logic gates: AND, OR, NOT, NAND, NOR, XOR, XNOR.	|  
+| 	**(logic_gates_tb.v)[https://github.com/VarshithGovi/Logic_gates/blob/main/logic_gates_tb.v]**	| 	Testbench for **`logic_gates.v`** to validate the functionality of all logic gates.	|  
+| 	**(logic_gates.vcd)[https://github.com/VarshithGovi/Logic_gates/blob/main/Logic_Gates.vcd]**	| 	Value Change Dump file generated after simulation to view waveforms in GTKWave.	| 
+| 	**(logic_gates.vvp)[https://github.com/VarshithGovi/Logic_gates/blob/main/logic_gates_tb.vvp]**	| 	Compiled Verilog simulation file created by Icarus Verilog.	| 
 
 ## ⚙️ Simulation Setup
 
