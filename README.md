@@ -17,9 +17,15 @@ Follow these steps to simulate and visualize the logic gates:
 
 **1. Requirements**
 
-- **Icarus Verilog:** A powerful open-source Verilog simulator.
+i. **Icarus Verilog:** A powerful open-source Verilog simulator.
 
-- **GTKWave:** A waveform viewer for analyzing simulation results.
+  ![download](https://github.com/user-attachments/assets/8a0914ea-b2b0-4cf2-82ed-1e84c8589c29)
+
+
+ii. **GTKWave:** A waveform viewer for analyzing simulation results. 
+  
+  ![download](https://github.com/user-attachments/assets/f1da217a-4e2f-4aaf-8ad0-d041c6151962)
+
 
 **2. Compilation and Simulation**
 
