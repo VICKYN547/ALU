@@ -6,7 +6,7 @@ Welcome to the Logic Gates Simulation project! 🎉 This repository demonstrates
 
 | 	File Name	 | 	Description	 |  
 | 	:-----:	 | 	:-----:	 | 	 
-| 	**[logic_gates.v](https://github.com/VarshithGovi/Logic_gates/blob/main/logic_gates.v)**	| 	Verilog module implementing basic logic gates: AND, OR, NOT, NAND, NOR, XOR, XNOR.	|  
+| 	**[logic_gates.v](https://github.com/VarshithGovi/Logic_gates/blob/main/logic_gates.v)**	| 	Verilog module implementing basic logic gates: AND, OR, NOT, NAND, NOR, XOR, XNOR.
 | 	**[logic_gates_tb.v](https://github.com/VarshithGovi/Logic_gates/blob/main/logic_gates_tb.v)**	| 	Testbench for **`logic_gates.v`** to validate the functionality of all logic gates.	|  
 | 	**[logic_gates.vcd](https://github.com/VarshithGovi/Logic_gates/blob/main/Logic_Gates.vcd)**	| 	Value Change Dump file generated after simulation to view waveforms in GTKWave.	| 
 | 	**[logic_gates.vvp](https://github.com/VarshithGovi/Logic_gates/blob/main/logic_gates_tb.vvp)**	| 	Compiled Verilog simulation file created by Icarus Verilog.	| 
@@ -80,13 +80,27 @@ Dumps the results into a **`.vcd`** file for waveform analysis.
 
 Displays the results in a tabular format for quick reference.
 
++---------+     +----------+     +--------+     +---------+
+ A -->|         |     |          |     |        |     |         |
+      |  AND    |---->|          |     |        |     |         |
+ B -->|         |     |          |     |        |     |         |
+      +---------+     |          |     |        |     |         |
+                      |  4x1     |---->| MUX    |---->| RESULT  |
+ A -->+---------+     |  MUX     |     |        |     |         |
+      |         |---->|          |     |        |     |         |
+ B -->|   OR    |     | (Selector|     |        |     |         |
+      +---------+     |   = OP)  |     |        |     |         |
+                      |          |     |        |     |         |
+ A -->+---------+     |          |     |        |     |         |
+      |         |---->|          |     +--------+     +---------+
+ B -->|  ADD/SUB|                     
+      +---------+         ^
+                          |
+        +--------+   +----+----+
+        | Control|-->| Opcode  |
+        |  Unit  |   | Decoder |
+        +--------+   +---------+
 
-| 	A	 | 	B	 | 	NOT_A	 | 	NOT_B	 | 	AND	 | 	OR	 | 	NAND	 | 	NOR	 | 	XOR	 | 	XNOR	 | 
-| 	:-----:	 | 	:-----:	 | 	:-----:	 | 	:-----:	 | 	:-----:	 | 	:-----:	 | 	:-----:	 | 	:-----:	 | 	:-----:	 | 	:-----:	 | 
-| 	0	| 	0	| 	1	 | 	1	| 	0	 | 	0	| 	1	| 	1	 | 	0	|	0	|
-| 	0	| 	1	| 	1	 | 	0	| 	0	 | 	1	| 	1	| 	0	 | 	1	| 	0	|
-| 	1	| 	0	| 	0	 | 	1	| 	0	 | 	1	| 	1	| 	0	 |  1	|	 0	|
-| 	1	| 	1	| 	0	 | 	0	| 	1	 | 	1	| 	0	| 	0	 | 	0	| 	0	|
 
 ## 📸 Screenshots
 
