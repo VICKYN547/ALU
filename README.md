@@ -80,26 +80,8 @@ Dumps the results into a **`.vcd`** file for waveform analysis.
 
 Displays the results in a tabular format for quick reference.
 
-+---------+     +----------+     +--------+     +---------+
- A -->|         |     |          |     |        |     |         |
-      |  AND    |---->|          |     |        |     |         |
- B -->|         |     |          |     |        |     |         |
-      +---------+     |          |     |        |     |         |
-                      |  4x1     |---->| MUX    |---->| RESULT  |
- A -->+---------+     |  MUX     |     |        |     |         |
-      |         |---->|          |     |        |     |         |
- B -->|   OR    |     | (Selector|     |        |     |         |
-      +---------+     |   = OP)  |     |        |     |         |
-                      |          |     |        |     |         |
- A -->+---------+     |          |     |        |     |         |
-      |         |---->|          |     +--------+     +---------+
- B -->|  ADD/SUB|                     
-      +---------+         ^
-                          |
-        +--------+   +----+----+
-        | Control|-->| Opcode  |
-        |  Unit  |   | Decoder |
-        +--------+   +---------+
+
+![file_00000000ac7861f8b2187971bb99f691](https://github.com/user-attachments/assets/7dcc5aad-baac-4e96-8175-a45eb022528d)
 
 
 ## 📸 Screenshots
