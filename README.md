@@ -63,15 +63,7 @@ The **`alu_op.v`** file defines basic logic gates:
 
 **OR Gate:** Outputs 1 if either input is 1.
 
-**NOT Gate:** Outputs the inverse of the input.
 
-**NAND Gate:** Outputs 1 unless both inputs are 1.
-
-**NOR Gate:** Outputs 1 if neither input is 1.
-
-**XOR Gate:** Outputs 1 if inputs are different.
-
-**XNOR Gate:** Outputs 1 if inputs are the same.
 
 ## 📜 Testbench Overview
 
@@ -102,6 +94,14 @@ Comprehensive testbench with clear output.
 Waveform visualization for enhanced understanding.
 
 Explore all basic logic gate behaviors!
+
+📦 Fabrication/Implementation Target
+
+You can now:
+
+Map to FPGA (using Vivado or Quartus)
+
+Or go for ASIC tape-out with a GDSII layout
 
 # 🤝 Contributions of the Basic ALU Using VLSI Design
 
