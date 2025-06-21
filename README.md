@@ -33,28 +33,30 @@ Run the following commands in your terminal:
 
 Step 1: Compile the testbench
 ```python
-  iverilog -o logic_gates.vvp logic_gates_tb.v
+  iverilog -o alu_test ALU.v ALU_tb.v
+
+
 ```
 
 Step 2: Run the simulation
 ```python
-  vvp logic_gates.vvp
+ vvp alu_test
 ```
 
-Step 3: Generate the waveform (**`logic_gates.vcd`** is created automatically)
+Step 3: Generate the waveform (**`alu_op.vcd`** is created automatically)
 
 **3. View Waveforms**
 
 Open the generated logic_gates.vcd file in GTKWave:
 ```python
-  gtkwave logic_gates.vcd
+  gtkwave alu_op.vcd
 ```
 
 Explore the waveforms of each logic gate and validate their functionality visually! 📈
 
-## 📋 Logic Gates Implementation
+## 📋 ALU Implementation
 
-The **`logic_gates.v`** file defines basic logic gates:
+The **`alu_op.v`** file defines basic logic gates:
 
 **AND Gate:** Outputs 1 if both inputs are 1.
 
@@ -72,7 +74,7 @@ The **`logic_gates.v`** file defines basic logic gates:
 
 ## 📜 Testbench Overview
 
-The **`logic_gates_tb.v`** file includes a testbench to verify the functionality of all gates. Here's what it does:
+The **`alu_tb.v`** file includes a testbench to verify the functionality of all gates. Here's what it does:
 
 Initializes a set of test cases for inputs a and b.
 
@@ -80,13 +82,14 @@ Dumps the results into a **`.vcd`** file for waveform analysis.
 
 Displays the results in a tabular format for quick reference.
 
+Logic diagram;
 
 ![file_00000000ac7861f8b2187971bb99f691](https://github.com/user-attachments/assets/7dcc5aad-baac-4e96-8175-a45eb022528d)
 
 
 ## 📸 Screenshots
 
-![gtkwave_logic_gates](https://github.com/user-attachments/assets/e2b6252b-6f73-4752-998c-2bc259167690)
+![gtkwave_alu](https://github.com/user-attachments/assets/e2b6252b-6f73-4752-998c-2bc259167690)
 
 
 ## 🌟 Highlights
