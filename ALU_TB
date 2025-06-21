@@ -1,0 +1,48 @@
+✅ Testbench Code (Verilog)
+verilog
+Copy
+Edit
+module ALU_tb;
+
+reg [7:0] A;
+reg [7:0] B;
+reg [2:0] opcode;
+wire [7:0] result;
+
+// Instantiate ALU
+ALU uut (
+    .A(A),
+    .B(B),
+    .opcode(opcode),
+    .result(result)
+);
+
+initial begin
+    // Display header
+    $display("Time\tA\tB\topcode\tresult");
+
+    // Test Addition
+    A = 8'd10; B = 8'd5; opcode = 3'b000;
+    #10 $display("%0d\t%d\t%d\t%b\t%d", $time, A, B, opcode, result);
+
+    // Test Subtraction
+    A = 8'd15; B = 8'd8; opcode = 3'b001;
+    #10 $display("%0d\t%d\t%d\t%b\t%d", $time, A, B, opcode, result);
+
+    // Test AND
+    A = 8'b11001100; B = 8'b10101010; opcode = 3'b010;
+    #10 $display("%0d\t%b\t%b\t%b\t%b", $time, A, B, opcode, result);
+
+    // Test OR
+    A = 8'b11001100; B = 8'b10101010; opcode = 3'b011;
+    #10 $display("%0d\t%b\t%b\t%b\t%b", $time, A, B, opcode, result);
+
+    // Test NOT A
+    A = 8'b00001111; B = 8'b00000000; opcode = 3'b100;
+    #10 $display("%0d\t%b\t%b\t%b\t%b", $time, A, B, opcode, result);
+
+    // Finish simulation
+    #10 $finish;
+end
+
+endmodule
