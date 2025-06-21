@@ -1,15 +1,15 @@
-# Logic Gates Simulation using Icarus Verilog and GTKWave 🚀
+#ALU using VLSI🚀
 
-Welcome to the Logic Gates Simulation project! 🎉 This repository demonstrates how to simulate basic logic gates using **Icarus Verilog** for simulation and **GTKWave** for waveform analysis. Dive into the exciting world of digital design! 💻✨
+Welcome to the ALU Simulation project! 🎉 This repository demonstrates how to simulate basic ALU operation using **Icarus Verilog** for simulation and **GTKWave** for waveform analysis. Dive into the exciting world of digital design! 💻✨
 
 ## 🗂 File Overview
 
 | 	File Name	 | 	Description	 |  
 | 	:-----:	 | 	:-----:	 | 	 
-| 	**[logic_gates.v](https://github.com/VarshithGovi/Logic_gates/blob/main/logic_gates.v)**	| 	Verilog module implementing basic logic gates: AND, OR, NOT, NAND, NOR, XOR, XNOR.
-| 	**[logic_gates_tb.v](https://github.com/VarshithGovi/Logic_gates/blob/main/logic_gates_tb.v)**	| 	Testbench for **`logic_gates.v`** to validate the functionality of all logic gates.	|  
-| 	**[logic_gates.vcd](https://github.com/VarshithGovi/Logic_gates/blob/main/Logic_Gates.vcd)**	| 	Value Change Dump file generated after simulation to view waveforms in GTKWave.	| 
-| 	**[logic_gates.vvp](https://github.com/VarshithGovi/Logic_gates/blob/main/logic_gates_tb.vvp)**	| 	Compiled Verilog simulation file created by Icarus Verilog.	| 
+| 	**( )**	| 	Verilog module implementing basic logic gates: AND, OR, NOT, NAND, NOR, XOR, XNOR.
+| 	****	| 	Testbench for **`logic_gates.v`** to validate the functionality of all logic gates.	|  
+| 	****	| 	OPcode for the simulation of the ALU using VLSI.	| 
+| 	****	| 	how to run the file.	| 
 
 ## ⚙️ Simulation Setup
 
