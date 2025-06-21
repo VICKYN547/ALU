@@ -8,7 +8,7 @@ Welcome to the ALU Simulation project! 🎉 This repository demonstrates how to 
 | 	File Name	 | 	Description	 |  
 | 	:-----:	 | 	:-----:	 | 	 
 | 	**[ALU _VL](https://github.com/VICKYN547/ALU/blob/41ebf6f3075ef8e1e5555959151bd922211ed001/ALU%20_VL)**	| 	Verilog module implementing basic logic gates: AND, OR, NOT, NAND, NOR, XOR, XNOR.
-| 	**(https://github.com/VICKYN547/ALU/blob/014d6dc71f5705d661e7c57f98196de43a7d9493/ALU_TB)**	| 	Testbench for **ALU operation** to validate the functionality of all logic gates.	|  
+| 	**[ALU_TB](https://github.com/VICKYN547/ALU/blob/014d6dc71f5705d661e7c57f98196de43a7d9493/ALU_TB)**	| 	Testbench for **ALU operation** to validate the functionality of all logic gates.	|  
 | 	**(https://github.com/VICKYN547/ALU/blob/94bc5953c4c51fa6c5411482bd4f3040d8260fc3/OP%20code)**	| 	OPcode for the simulation of the ALU using VLSI.	| 
 | 	**(https://github.com/VICKYN547/ALU/blob/e17e83306b428f9a6ac7fb1025b8fe598990a0d6/To%20run)**	| 	how to run the file.	| 
 
