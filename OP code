@@ -1,0 +1,8 @@
+💡 Summary of Opcodes
+Opcode            	Operation
+000	               Addition
+001	              Subtraction
+010	                  AND
+011                  	OR
+100	                NOT (A)
+
