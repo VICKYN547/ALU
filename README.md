@@ -82,7 +82,7 @@ Logic diagram;
 
 ## 📸 Screenshots
 
-
+https://github.com/VICKYN547/ALU/blob/555f8ea72362da98f4a221c45463f565baf52a04/WhatsApp%20Image%202025-06-21%20at%2017.52.17_858a7baf.jpg
 
 
 ## 🌟 Highlights
