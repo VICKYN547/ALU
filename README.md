@@ -82,7 +82,7 @@ Logic diagram;
 
 ## 📸 Screenshots
 
-![gtkwave_alu](https://github.com/user-attachments/assets/e2b6252b-6f73-4752-998c-2bc259167690)
+
 
 
 ## 🌟 Highlights
