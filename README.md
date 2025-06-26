@@ -78,7 +78,7 @@ Logic diagram;
 
 ## 📸 Screenshots
 
-[SIMULATED WAVEFORM](https://github.com/VICKYN547/ALU/blob/88e238e7610e4770bf0864b8d7726280d49f2ab5/SIMULATED%20WAVEFORM)
+
 
 
 ## 🌟 Highlights
