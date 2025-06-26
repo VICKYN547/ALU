@@ -23,10 +23,6 @@ i. **Icarus Verilog:** A powerful open-source Verilog simulator.
   ![download](https://github.com/user-attachments/assets/8a0914ea-b2b0-4cf2-82ed-1e84c8589c29)
 
 
-ii. **GTKWave:** A waveform viewer for analyzing simulation results. 
-  
-  ![download](https://github.com/user-attachments/assets/f1da217a-4e2f-4aaf-8ad0-d041c6151962)
-
 
 **2. Compilation and Simulation**
 
@@ -82,7 +78,7 @@ Logic diagram;
 
 ## 📸 Screenshots
 
-[simulated waveform.](https://github.com/VICKYN547/ALU/blob/555f8ea72362da98f4a221c45463f565baf52a04/WhatsApp%20Image%202025-06-21%20at%2017.52.17_858a7baf.jpg)
+[simulated waveform.]()
 
 
 ## 🌟 Highlights
