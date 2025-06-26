@@ -78,7 +78,7 @@ Logic diagram;
 
 ## 📸 Screenshots
 
-[simulated waveform.]()
+(SIMULATED WAVEFORM)
 
 
 ## 🌟 Highlights
