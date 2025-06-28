@@ -76,10 +76,6 @@ Logic diagram;
 ![file_00000000ac7861f8b2187971bb99f691](https://github.com/user-attachments/assets/7dcc5aad-baac-4e96-8175-a45eb022528d)
 
 
-## 📸 Screenshots
-
-
-
 
 ## 🌟 Highlights
 
